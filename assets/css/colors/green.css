@@ -44,7 +44,7 @@ section header .dotted-break span:after,
 }
 #portfolio .i .c .wrap .info,
 #blog .articles .article .c .wrap .info {
-  background: rgba(56, 133, 126, 0.8);
+  background: rgba(75, 145, 138, 0.8);
 }
 #blog .btn:hover {
 	background: #38857e;
