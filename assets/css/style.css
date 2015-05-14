@@ -492,7 +492,7 @@ textarea {
     -ms-transition: opacity 1s;
     -o-transition: opacity 1s;
     height: 100%;
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     background-position: center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -500,7 +500,7 @@ textarea {
     background-size: cover
 }
 #home .carousel-inner .item.item-1 {
-    background-image: url(../../img/regina.jpg)
+    background-color: #696969;
 }
 #home .carousel-inner .item.item-2 {
     background-image: url(../../img/bg_home-2.jpg)
