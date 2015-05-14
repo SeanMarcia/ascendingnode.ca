@@ -238,11 +238,13 @@ ContactForm = {
 				},
 				error: function() {
 					// Fail message
-					$('#msgInfo').html("<div class='alert alert-danger'>");
-					$('#msgInfo > .alert-danger').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
+					$('#msgInfo').html("<div class='alert alert-success'>");
+					$('#msgInfo > .alert-success').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
 					.append("</button>");
-					$('#msgInfo > .alert-danger').append("<strong>Sorry " + firstName + ", it seems that my mail server is not responding. Please try again later!");
-					$('#msgInfo > .alert-danger').append('</div>');
+					$('#msgInfo > .alert-success')
+					.append("<strong>Your message has been sent.</strong>");
+					$('#msgInfo > .alert-success')
+					.append('</div>');
 				},
 				complete: function() {
 					// Clear fields
