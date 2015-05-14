@@ -568,7 +568,7 @@ textarea {
     /*font-family: Lato, sans-serif;*/
     font-family: 'Josefin Sans', sans-serif;
     font-size: 95px;
-    margin-bottom: 15px;
+    margin-bottom: 200px;
     text-transform: none;
     font-weight: 900
 }
@@ -576,7 +576,7 @@ textarea {
     font-size: 20px;
     font-weight: 400;
     text-transform: none;
-    margin-top: 20px;
+    /*margin-top: 20px;*/
     text-transform: uppercase
 }
 #home .carousel-inner .item .container {
