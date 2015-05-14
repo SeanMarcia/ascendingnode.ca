@@ -565,6 +565,8 @@ textarea {
     margin: 0
 }
 #home .carousel-inner .item .text h1 {
+    /*font-family: Lato, sans-serif;*/
+    font-family: 'Josefin Sans', sans-serif;
     font-size: 95px;
     margin-bottom: 15px;
     text-transform: none;
