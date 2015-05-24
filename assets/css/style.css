@@ -413,7 +413,7 @@ textarea {
     font-size: 60px;
     font-weight: 900;
     height: 70px;
-    padding: 22px 15px
+    padding: 10px 15px
 }
 #header .navbar-toggle {
     background: #369eef;
@@ -1904,7 +1904,7 @@ textarea {
         position: relative
     }
     #header .navbar-nav>li.active:before {
-        content: '\f109';
+        content: '\f1db';
         font-family: FontAwesome;
         position: absolute;
         top: 8px;
