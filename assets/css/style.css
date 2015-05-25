@@ -532,7 +532,7 @@ textarea {
     text-transform: uppercase;
     font-size: 12px;
     font-weight: 400;
-    margin: 12px 0 25px 0
+    margin: 12px 0 100px 0
 }
 #home .carousel-inner .item .text .dotted-break {
     width: 44px;
@@ -565,10 +565,11 @@ textarea {
     margin: 0
 }
 #home .carousel-inner .item .text h1 {
+    text-shadow: black -0.005em -0.005em 0.8em;
     /*font-family: Lato, sans-serif;*/
     font-family: 'Josefin Sans', sans-serif;
     font-size: 95px;
-    margin-bottom: 200px;
+    /*margin-bottom: 200px;*/
     text-transform: none;
     font-weight: 900
 }
