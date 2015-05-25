@@ -2021,6 +2021,9 @@ textarea {
         text-align: center;
         width: 100%
     }
+    #home .carousel-inner .item .text h1 {
+        font-size:40px;
+    }
 }
 @media (min-width: 1200px) {
     .container {
